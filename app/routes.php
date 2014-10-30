@@ -23,3 +23,8 @@ Route::get('tes', function()
 	$pg->alamat="sesetan";
 	$pg->save();
 });
+
+Route::get('coba', function()
+{
+	return "coba";
+});
